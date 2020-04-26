@@ -61,7 +61,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
                         let verifiedUsers = document.get("verified") as! [String]
                         if verifiedUsers.contains(email!) {
                             print("Sign In Successful!")
-                            let alertController = UIAlertController(title: "Success!", message: "You have successfully signed in. Press the \"Teen Tech Dashboard\" button again to start helping.", preferredStyle: .alert)
+                            let alertController = UIAlertController(title: "Success!", message: "You have successfully signed in. Press the blue button to start helping!", preferredStyle: .alert)
                             alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
                             UIApplication.shared.windows.first?.rootViewController?.present(alertController, animated: true)
                             NotificationCenter.default.post(name: NSNotification.Name(rawValue: "load"), object: nil)

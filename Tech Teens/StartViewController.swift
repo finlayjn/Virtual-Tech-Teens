@@ -134,7 +134,7 @@ class StartViewController: UITableViewController, SFSafariViewControllerDelegate
         } else if indexPath.section == 1 {
             
             
-            if indexPath.row == 2 {
+            if indexPath.row == 1 {
                 self.tableView.deselectRow(at: self.tableView.indexPathForSelectedRow!, animated: true)
                 
                 if Auth.auth().currentUser?.email == nil {
@@ -158,11 +158,14 @@ class StartViewController: UITableViewController, SFSafariViewControllerDelegate
                     }
                 }
                 
-            } else if indexPath.row == 3 {
+            } else if indexPath.row == 2 {
                     let svc = SFSafariViewController(url: NSURL(string: "https://forms.gle/uKs5GKJ2iyWCNWoh7")! as URL)
                     svc.delegate = self
                     self.present(svc, animated: true, completion: nil)
-                
+            } else if indexPath.row == 3 {
+                let svc = SFSafariViewController(url: NSURL(string: "https://github.com/finlayjn/Virtual-Tech-Teens/blob/master/TERMS.md")! as URL)
+                svc.delegate = self
+                self.present(svc, animated: true, completion: nil)
             }
             
             
@@ -183,22 +186,20 @@ class StartViewController: UITableViewController, SFSafariViewControllerDelegate
         } else if indexPath.section == 1 {
             if indexPath.row == 0 {
                 if Auth.auth().currentUser?.email != nil {
-                    return createCell(title: "Thank you for being a Tech Teen! Remember to be respectful, patient, and helpful when answering support requests. Press below to ", tap: false, indexPath: indexPath)
+                    return createCell(title: "Thank you for being a Tech Teen! Remember to be respectful, patient, and helpful when answering support requests. Press the button above when the queue is greater than 0.", tap: false, indexPath: indexPath)
                 } else {
-                    return createCell(title: "When you press the button above, you will be placed in a queue", tap: false, indexPath: indexPath)
+                    return createCell(title: "When you press the button above, you will be placed in a queue to be connected with the next available Virtual Tech Teen.", tap: false, indexPath: indexPath)
                 }
             } else if indexPath.row == 1 {
-                return createCell(title: "See help and FAQs", tap: true, indexPath: indexPath)
-            } else if indexPath.row == 2 {
                 if Auth.auth().currentUser?.email != nil {
-                    return createCell(title: "Logout of Tech Teens", tap: true, indexPath: indexPath)
+                    return createCell(title: "Logout of Virtual Tech Teens", tap: true, indexPath: indexPath)
                 } else {
-                    return createCell(title: "Login as a Tech Teen", tap: true, indexPath: indexPath)
+                    return createCell(title: "Login as a Virtual Tech Teen", tap: true, indexPath: indexPath)
                 }
+            } else if indexPath.row == 2 {
+                return createCell(title: "Become a Virtual Tech Teen", tap: true, indexPath: indexPath)
             } else if indexPath.row == 3 {
-                return createCell(title: "Apply to become a Tech Teen", tap: true, indexPath: indexPath)
-            } else if indexPath.row == 4 {
-                return createCell(title: "Terms & Privacy", tap: true, indexPath: indexPath)
+                return createCell(title: "Code of Conduct, Terms, & Privacy", tap: true, indexPath: indexPath)
             }
         }
 
@@ -220,7 +221,7 @@ class StartViewController: UITableViewController, SFSafariViewControllerDelegate
     override func numberOfSections(in tableView: UITableView) -> Int { return 2 }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if section == 1 { return 5 }
+        if section == 1 { return 4 }
         else { return 1 }
     }
     

@@ -4,6 +4,7 @@
 //
 //  Created by James Fang on 7/14/16.
 //  Copyright © 2016 Agora.io. All rights reserved.
+//  Modified by Finlay Nathan on 4/25/20
 //
 
 import UIKit
