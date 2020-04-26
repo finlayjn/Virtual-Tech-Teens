@@ -12,9 +12,8 @@ Dependencies: CocoaPods
 3. Install to a physical device (iOS Simulator will not run with video)
 
 
-Copyright 2020 Finlay Nathan, Jessica Golden, Ethan Hopkins, Henry Marks
 
-Licensed under modified MIT License
+Copyright 2020 Finlay Nathan, Jessica Golden, Ethan Hopkins, Henry Marks
 
 See LICENSE.txt for more information
 
