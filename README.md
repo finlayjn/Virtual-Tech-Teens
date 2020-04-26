@@ -3,6 +3,14 @@
 
 Tech problems are universal. In an era where technology is ubiquitous, people need help navigating this complex landscape. As a result people turn to friends and family for assistance, with some not even having this luxury. Because of COVID-19, the option to receive support in a face-to-face environment has become less viable. Our app circumvents this, providing a digital infrastructure for the support the user would normally get in person. Using state of the art UI, asking for support only requires one tap. Overall, the benefits of our application are symbiotic. It benefits teens, giving them volunteer hours and an invaluable work experience. It benefits those in need of tech support. But most importantly it benefits the community, strengthening the relationship between those of different age groups.
 
+## Installation
+
+Dependencies: CocoaPods
+
+1. In the project directory, run `pod install`
+2. In the Xcode workspace, edit the project signing settings
+3. Install to a physical device (iOS Simulator will not run with video)
+
 
 Copyright 2020 Finlay Nathan, Jessica Golden, Ethan Hopkins, Henry Marks
 
