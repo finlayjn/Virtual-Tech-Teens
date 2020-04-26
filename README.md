@@ -1,10 +1,10 @@
 # Virtual Tech Teens
 
 
-Tech problems are universal, they transcend race, gender, and beliefs. In an era where technology is ubiquitous people need help navigating this complex landscape.  As a result people turn to friends and family for assistance, with some not even having this luxury.   Because of the COVID-19 this option has become less viable as it is unsafe for people to interact face to face. Our app circumvents this, providing a digital infrastructure in order to receive the support the user would normally get in person.  Using state of the art UI, signing up for support only requires one click. Overall, the benefits of our application are symbiotic.  It benefits teens, giving them volunteer hours and an invaluable work experience. It benefits those in need of tech support. But most importantly it benefits the community, strengthening the relationship between those of different age groups.
+Tech problems are universal. In an era where technology is ubiquitous, people need help navigating this complex landscape. As a result people turn to friends and family for assistance, with some not even having this luxury. Because of COVID-19, the option to receive support in a face-to-face environment has become less viable. Our app circumvents this, providing a digital infrastructure for the support the user would normally get in person. Using state of the art UI, asking for support only requires one tap. Overall, the benefits of our application are symbiotic. It benefits teens, giving them volunteer hours and an invaluable work experience. It benefits those in need of tech support. But most importantly it benefits the community, strengthening the relationship between those of different age groups.
 
 
-Copyright 2020 Finlay Nathan
+Copyright 2020 Finlay Nathan, Jessica Golden, Ethan Hopkins, Henry Marks
 
 Licensed under modified MIT License
 
