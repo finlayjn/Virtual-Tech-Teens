@@ -11,13 +11,14 @@
 		851E12E92454FA6200ACA3F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851E12E72454FA6200ACA3F2 /* Main.storyboard */; };
 		851E12EB2454FA6500ACA3F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851E12EA2454FA6500ACA3F2 /* Assets.xcassets */; };
 		851E12EE2454FA6500ACA3F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851E12EC2454FA6500ACA3F2 /* LaunchScreen.storyboard */; };
-		851E12F72454FC8F00ACA3F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 851E12F62454FC8F00ACA3F2 /* GoogleService-Info.plist */; };
 		851E12FD2454FDDE00ACA3F2 /* AppID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851E12F82454FDDD00ACA3F2 /* AppID.swift */; };
 		851E12FE2454FDDE00ACA3F2 /* Log.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851E12F92454FDDD00ACA3F2 /* Log.storyboard */; };
 		851E12FF2454FDDE00ACA3F2 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851E12FA2454FDDD00ACA3F2 /* LogViewController.swift */; };
 		851E13002454FDDE00ACA3F2 /* VideoChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851E12FB2454FDDD00ACA3F2 /* VideoChatViewController.swift */; };
 		851E13012454FDDE00ACA3F2 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851E12FC2454FDDE00ACA3F2 /* StartViewController.swift */; };
 		851E13052454FE6A00ACA3F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851E13042454FE6900ACA3F2 /* SceneDelegate.swift */; };
+		85BEDFFD2466219300CD8E74 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 85BEDFFC2466219300CD8E74 /* README.md */; };
+		85BEDFFF2466219700CD8E74 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 85BEDFFE2466219700CD8E74 /* LICENSE.txt */; };
 		DED787471212DDB93B2CF531 /* Pods_Tech_Teens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF02298E3A1594C90CD414C0 /* Pods_Tech_Teens.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,13 +30,14 @@
 		851E12EA2454FA6500ACA3F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		851E12ED2454FA6500ACA3F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		851E12EF2454FA6500ACA3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		851E12F62454FC8F00ACA3F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		851E12F82454FDDD00ACA3F2 /* AppID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppID.swift; sourceTree = "<group>"; };
 		851E12F92454FDDD00ACA3F2 /* Log.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Log.storyboard; sourceTree = "<group>"; };
 		851E12FA2454FDDD00ACA3F2 /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
 		851E12FB2454FDDD00ACA3F2 /* VideoChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoChatViewController.swift; sourceTree = "<group>"; };
 		851E12FC2454FDDE00ACA3F2 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		851E13042454FE6900ACA3F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		85BEDFFC2466219300CD8E74 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		85BEDFFE2466219700CD8E74 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		988E48E5FDC6A2BFB822BB1F /* Pods-Tech Teens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech Teens.release.xcconfig"; path = "Target Support Files/Pods-Tech Teens/Pods-Tech Teens.release.xcconfig"; sourceTree = "<group>"; };
 		CF02298E3A1594C90CD414C0 /* Pods_Tech_Teens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tech_Teens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -64,6 +66,8 @@
 		851E12D52454FA6200ACA3F2 = {
 			isa = PBXGroup;
 			children = (
+				85BEDFFC2466219300CD8E74 /* README.md */,
+				85BEDFFE2466219700CD8E74 /* LICENSE.txt */,
 				851E12E02454FA6200ACA3F2 /* Tech Teens */,
 				851E12DF2454FA6200ACA3F2 /* Products */,
 				3FE7612B08A29F3680FE660A /* Pods */,
@@ -98,7 +102,6 @@
 				851E12F82454FDDD00ACA3F2 /* AppID.swift */,
 				851E12E12454FA6200ACA3F2 /* AppDelegate.swift */,
 				851E13042454FE6900ACA3F2 /* SceneDelegate.swift */,
-				851E12F62454FC8F00ACA3F2 /* GoogleService-Info.plist */,
 				851E12EF2454FA6500ACA3F2 /* Info.plist */,
 				851E12EA2454FA6500ACA3F2 /* Assets.xcassets */,
 			);
@@ -183,11 +186,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85BEDFFD2466219300CD8E74 /* README.md in Resources */,
 				851E12EE2454FA6500ACA3F2 /* LaunchScreen.storyboard in Resources */,
-				851E12F72454FC8F00ACA3F2 /* GoogleService-Info.plist in Resources */,
 				851E12EB2454FA6500ACA3F2 /* Assets.xcassets in Resources */,
 				851E12E92454FA6200ACA3F2 /* Main.storyboard in Resources */,
 				851E12FE2454FDDE00ACA3F2 /* Log.storyboard in Resources */,
+				85BEDFFF2466219700CD8E74 /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7YU2NJ97TW;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Tech Teens/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -428,7 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7YU2NJ97TW;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Tech Teens/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
